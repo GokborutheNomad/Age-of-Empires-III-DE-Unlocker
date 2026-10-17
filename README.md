@@ -1,4 +1,4 @@
-# AoE III DE Unlocker — Portraits & Level
+# Age of Empires III DE Unlocker — Portraits & Level
 
 An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all profile portraits and sets your Home City level.
 
