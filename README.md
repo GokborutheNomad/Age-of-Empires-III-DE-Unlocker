@@ -16,6 +16,8 @@ An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all
 - Age of Empires III: Definitive Edition (Steam)
 - The game in **windowed** or **borderless** mode. In exclusive fullscreen the panel can't appear on top.
 
+**Supported game version:** `100.19.18658.0` (Steam). The panel checks the game version when it loads. After a game update it shows *"Unsupported game version"* and disables its features instead of touching your profile — wait for an updated release.
+
 ## How to use
 
 1. Start the game and go to the **main menu**.
