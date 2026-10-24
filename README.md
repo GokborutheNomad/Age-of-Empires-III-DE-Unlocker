@@ -1,6 +1,6 @@
 # Age of Empires III DE Unlocker — Portraits & Level
 
-An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all profile portraits and sets your Home City level.
+An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all profile portraits, sets your Home City level and shows multiplayer chat without the `#` mask.
 
 **Download:** grab the latest `AoE3-Portrait-Unlocker.zip` from the [Releases](../../releases) page.
 
@@ -8,6 +8,7 @@ An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all
 
 - **Portraits:** permanently unlocks every profile portrait and saves it to your profile.
 - **Home City level:** set any level from 1 to 999,999,999 for all civs or a single civ. The required XP and a correct checksum are written for you.
+- **Chat uncensor:** shows multiplayer chat as typed, without the `#` profanity mask. Only your own screen changes; other players see nothing different. Turn it on or off with the switch in the **Portraits** tab (on by default). Nothing is written to disk.
 - In-game overlay panel: press **Insert** to show / hide it; it never steals focus from the game.
 
 ## Requirements
@@ -24,8 +25,9 @@ An in-game panel for **Age of Empires III: Definitive Edition** that unlocks all
 2. Run `AoE3-Portrait-Unlocker.exe`. It finds the game, loads the panel, and closes itself after a few seconds.
 3. In the game, press **Insert** to open the panel.
 4. **Portraits** tab → **Permanent + Save** (click twice to confirm).
-5. **Home City** tab → pick a level (buttons, mouse wheel, or click the number and type it). Optionally pick a civ, then **Apply level** (click twice to confirm).
-6. Restart the game to see the new Home City level.
+5. **Chat uncensor** (Portraits tab) is on by default. Use the switch to turn it off; the status shows *Active* once the game's chat filter is bypassed.
+6. **Home City** tab → pick a level (buttons, mouse wheel, or click the number and type it). Optionally pick a civ, then **Apply level** (click twice to confirm).
+7. Restart the game to see the new Home City level.
 
 If the game runs as administrator, run the unlocker as administrator too.
 
@@ -33,7 +35,7 @@ If the game runs as administrator, run the unlocker as administrator too.
 |---|---|
 | Insert | Show / hide the panel |
 | F8 | Permanent portrait unlock + save |
-| End | Remove the panel from the game |
+| End | Remove the panel from the game (the chat mask comes back) |
 
 ## Backups & restoring
 
@@ -46,7 +48,8 @@ Home City files are marked **read-only** after a level change so the game doesn'
 ## Notes
 
 - Some antivirus programs flag tools that load code into another process. This is a false positive caused by how the panel is loaded into the game. If you're unsure, don't run it.
-- Single-player profile modification. **Use at your own risk** and keep your backups.
+- Portraits and Home City level are single-player profile changes. Chat uncensor only changes what your own client displays.
+- **Use at your own risk** and keep your backups.
 - Not affiliated with or endorsed by Microsoft, World's Edge, or Forgotten Empires.
 
 ---
